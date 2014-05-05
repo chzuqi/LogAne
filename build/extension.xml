@@ -1,0 +1,32 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+  <id>com.clog.ane</id>
+  <versionNumber>1</versionNumber>
+  <platforms>
+    <platform name="iPhone-ARM">
+        <applicationDeployment>
+            <nativeLibrary>libCLog.a</nativeLibrary>
+            <initializer>CLogExtInitializer</initializer>
+            <finalizer>CLogExtFinalizer</finalizer>
+        </applicationDeployment>
+    </platform>
+    <platform name="iPhone-x86">
+        <applicationDeployment>
+            <nativeLibrary>libCLog.a</nativeLibrary>
+            <initializer>CLogExtInitializer</initializer>
+            <finalizer>CLogExtFinalizer</finalizer>
+        </applicationDeployment>
+    </platform>
+
+    <platform name="Android-ARM"> 
+        <applicationDeployment> 
+            <nativeLibrary>libCLog.jar</nativeLibrary>
+            <initializer>com.clog.ane.CLogExtension</initializer>
+            <finalizer>com.clog.ane.CLogExtension</finalizer>
+        </applicationDeployment> 
+    </platform> 
+    
+    <platform name="default"> 
+        <applicationDeployment/> 
+    </platform> 
+  </platforms>
+</extension>

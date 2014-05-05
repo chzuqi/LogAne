@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61F4101C191741AE00022F68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F4101B191741AE00022F68 /* Foundation.framework */; };
+		61F4101E191741AE00022F68 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F4101D191741AE00022F68 /* CoreFoundation.framework */; };
+		61F41020191741AE00022F68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F4101F191741AE00022F68 /* UIKit.framework */; };
+		61F41022191741AE00022F68 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F41021191741AE00022F68 /* MobileCoreServices.framework */; };
+		61F41024191741AE00022F68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F41023191741AE00022F68 /* CoreGraphics.framework */; };
+		61F41026191741AE00022F68 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F41025191741AE00022F68 /* SystemConfiguration.framework */; };
+		61F41028191741AE00022F68 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F41027191741AE00022F68 /* AudioToolbox.framework */; };
+		61F4102A191741AE00022F68 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F41029191741AE00022F68 /* CFNetwork.framework */; };
+		61F4102C191741AE00022F68 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F4102B191741AE00022F68 /* QuartzCore.framework */; };
+		61F4102E191741AE00022F68 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F4102D191741AE00022F68 /* OpenGLES.framework */; };
+		61F41030191741AE00022F68 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F4102F191741AE00022F68 /* CoreLocation.framework */; };
+		61F41032191741AE00022F68 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F41031191741AE00022F68 /* CoreMedia.framework */; };
+		61F41034191741AE00022F68 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F41033191741AE00022F68 /* CoreVideo.framework */; };
+		61F41036191741AE00022F68 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F41035191741AE00022F68 /* AVFoundation.framework */; };
+		61F41038191741AE00022F68 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F41037191741AE00022F68 /* Security.framework */; };
+		61F41048191741AE00022F68 /* CLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F41047191741AE00022F68 /* CLog.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		61F41018191741AE00022F68 /* libCLog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCLog.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F4101B191741AE00022F68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		61F4101D191741AE00022F68 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		61F4101F191741AE00022F68 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		61F41021191741AE00022F68 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		61F41023191741AE00022F68 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		61F41025191741AE00022F68 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		61F41027191741AE00022F68 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		61F41029191741AE00022F68 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		61F4102B191741AE00022F68 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		61F4102D191741AE00022F68 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		61F4102F191741AE00022F68 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		61F41031191741AE00022F68 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		61F41033191741AE00022F68 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		61F41035191741AE00022F68 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		61F41037191741AE00022F68 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		61F4103E191741AE00022F68 /* DebugCLogAIRApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebugCLogAIRApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F41045191741AE00022F68 /* CLog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLog-Prefix.pch"; sourceTree = "<group>"; };
+		61F41046191741AE00022F68 /* CLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLog.h; sourceTree = "<group>"; };
+		61F41047191741AE00022F68 /* CLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLog.m; sourceTree = "<group>"; };
+		61F41049191741AE00022F68 /* extension.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = extension.xml; sourceTree = "<group>"; };
+		61F4104A191741AE00022F68 /* platformoptions.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = platformoptions.xml; sourceTree = "<group>"; };
+		61F4104B191741AE00022F68 /* generateANE.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = generateANE.sh; sourceTree = "<group>"; };
+		61F4104C191741AE00022F68 /* debugIPA.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = debugIPA.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61F41015191741AE00022F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F41032191741AE00022F68 /* CoreMedia.framework in Frameworks */,
+				61F41038191741AE00022F68 /* Security.framework in Frameworks */,
+				61F4101E191741AE00022F68 /* CoreFoundation.framework in Frameworks */,
+				61F41030191741AE00022F68 /* CoreLocation.framework in Frameworks */,
+				61F41022191741AE00022F68 /* MobileCoreServices.framework in Frameworks */,
+				61F41034191741AE00022F68 /* CoreVideo.framework in Frameworks */,
+				61F4102A191741AE00022F68 /* CFNetwork.framework in Frameworks */,
+				61F41020191741AE00022F68 /* UIKit.framework in Frameworks */,
+				61F41024191741AE00022F68 /* CoreGraphics.framework in Frameworks */,
+				61F4102E191741AE00022F68 /* OpenGLES.framework in Frameworks */,
+				61F41028191741AE00022F68 /* AudioToolbox.framework in Frameworks */,
+				61F41026191741AE00022F68 /* SystemConfiguration.framework in Frameworks */,
+				61F4101C191741AE00022F68 /* Foundation.framework in Frameworks */,
+				61F41036191741AE00022F68 /* AVFoundation.framework in Frameworks */,
+				61F4102C191741AE00022F68 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61F4100F191741AE00022F68 = {
+			isa = PBXGroup;
+			children = (
+				61F41043191741AE00022F68 /* CLog */,
+				61F4101A191741AE00022F68 /* Frameworks */,
+				61F41019191741AE00022F68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61F41019191741AE00022F68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61F41018191741AE00022F68 /* libCLog.a */,
+				61F4103E191741AE00022F68 /* DebugCLogAIRApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61F4101A191741AE00022F68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61F4101B191741AE00022F68 /* Foundation.framework */,
+				61F4101D191741AE00022F68 /* CoreFoundation.framework */,
+				61F4101F191741AE00022F68 /* UIKit.framework */,
+				61F41021191741AE00022F68 /* MobileCoreServices.framework */,
+				61F41023191741AE00022F68 /* CoreGraphics.framework */,
+				61F41025191741AE00022F68 /* SystemConfiguration.framework */,
+				61F41027191741AE00022F68 /* AudioToolbox.framework */,
+				61F41029191741AE00022F68 /* CFNetwork.framework */,
+				61F4102B191741AE00022F68 /* QuartzCore.framework */,
+				61F4102D191741AE00022F68 /* OpenGLES.framework */,
+				61F4102F191741AE00022F68 /* CoreLocation.framework */,
+				61F41031191741AE00022F68 /* CoreMedia.framework */,
+				61F41033191741AE00022F68 /* CoreVideo.framework */,
+				61F41035191741AE00022F68 /* AVFoundation.framework */,
+				61F41037191741AE00022F68 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61F41043191741AE00022F68 /* CLog */ = {
+			isa = PBXGroup;
+			children = (
+				61F41046191741AE00022F68 /* CLog.h */,
+				61F41047191741AE00022F68 /* CLog.m */,
+				61F41044191741AE00022F68 /* Supporting Files */,
+			);
+			path = CLog;
+			sourceTree = "<group>";
+		};
+		61F41044191741AE00022F68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61F41045191741AE00022F68 /* CLog-Prefix.pch */,
+				61F41049191741AE00022F68 /* extension.xml */,
+				61F4104A191741AE00022F68 /* platformoptions.xml */,
+				61F4104B191741AE00022F68 /* generateANE.sh */,
+				61F4104C191741AE00022F68 /* debugIPA.sh */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		61F41016191741AE00022F68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		61F41017191741AE00022F68 /* CLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F4104F191741AE00022F68 /* Build configuration list for PBXNativeTarget "CLog" */;
+			buildPhases = (
+				61F41014191741AE00022F68 /* Sources */,
+				61F41015191741AE00022F68 /* Frameworks */,
+				61F41016191741AE00022F68 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLog;
+			productName = CLog;
+			productReference = 61F41018191741AE00022F68 /* libCLog.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		61F4103D191741AE00022F68 /* DebugCLogAIRApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F41055191741AE00022F68 /* Build configuration list for PBXNativeTarget "DebugCLogAIRApp" */;
+			buildPhases = (
+				61F4103C191741AE00022F68 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DebugCLogAIRApp;
+			productName = DebugCLogAIRApp;
+			productReference = 61F4103E191741AE00022F68 /* DebugCLogAIRApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61F41010191741AE00022F68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 61F41013191741AE00022F68 /* Build configuration list for PBXProject "CLog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 61F4100F191741AE00022F68;
+			productRefGroup = 61F41019191741AE00022F68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61F41017191741AE00022F68 /* CLog */,
+				61F4103D191741AE00022F68 /* DebugCLogAIRApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61F4103C191741AE00022F68 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "\n\t\t\t\t\t\t\t\tchmod 755 \"$PROJECT_DIR/$PROJECT_NAME/debugIPA.sh\"\n\t\t\t\t\t\t\t\t\"$PROJECT_DIR/$PROJECT_NAME/debugIPA.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61F41014191741AE00022F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F41048191741AE00022F68 /* CLog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		61F4104D191741AE00022F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = /Users/czq/Downloads/AIR/AIR_4.0/include/;
+			};
+			name = Debug;
+		};
+		61F4104E191741AE00022F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = /Users/czq/Downloads/AIR/AIR_4.0/include/;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61F41050191741AE00022F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CLog.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CLog/CLog-Prefix.pch";
+				GCC_VERSION = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		61F41051191741AE00022F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CLog.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CLog/CLog-Prefix.pch";
+				GCC_VERSION = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		61F41056191741AE00022F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AIR_SDK_PATH = /Users/czq/Downloads/AIR/AIR_4.0;
+				NATIVEEXTENSION_SWC = /Users/czq/Documents/anes/LogANE/actionscript/bin/CLog.swc;
+				PRODUCT_NAME = DebugCLogAIRApp;
+			};
+			name = Debug;
+		};
+		61F41057191741AE00022F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AIR_SDK_PATH = /Users/czq/Downloads/AIR/AIR_4.0;
+				NATIVEEXTENSION_SWC = /Users/czq/Documents/anes/LogANE/actionscript/bin/CLog.swc;
+				PRODUCT_NAME = DebugCLogAIRApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61F41013191741AE00022F68 /* Build configuration list for PBXProject "CLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F4104D191741AE00022F68 /* Debug */,
+				61F4104E191741AE00022F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61F4104F191741AE00022F68 /* Build configuration list for PBXNativeTarget "CLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F41050191741AE00022F68 /* Debug */,
+				61F41051191741AE00022F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61F41055191741AE00022F68 /* Build configuration list for PBXNativeTarget "DebugCLogAIRApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F41056191741AE00022F68 /* Debug */,
+				61F41057191741AE00022F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61F41010191741AE00022F68 /* Project object */;
+}

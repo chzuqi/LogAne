@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CLog' target in the 'CLog' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
