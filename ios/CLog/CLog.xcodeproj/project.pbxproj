@@ -300,6 +300,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = /Users/czq/Downloads/AIR/AIR_13.0/include/;
 			};
 			name = Debug;
 		};
@@ -314,6 +315,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = /Users/czq/Downloads/AIR/AIR_13.0/include/;
 			};
 			name = Release;
 		};
@@ -354,6 +356,7 @@
 				61F41051191741AE00022F68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61F41055191741AE00022F68 /* Build configuration list for PBXNativeTarget "DebugCLogAIRApp" */ = {
 			isa = XCConfigurationList;
@@ -362,6 +365,7 @@
 				61F41057191741AE00022F68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
